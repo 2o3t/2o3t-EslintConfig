@@ -1,5 +1,5 @@
 {
-  "name": "2o3t-eslint-config",
+  "name": "2o3t-eslint",
   "version": "1.0.0",
   "description": "Node Style Guide for 2o3t.",
   "main": "index",

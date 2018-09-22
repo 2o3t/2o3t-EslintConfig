@@ -1,11 +1,11 @@
-# eslint-config-2o3t
+# 2o3t-eslint
 
 Node Style Guide for 2o3t.
 
 ## Install
 
 ```bash
-npm i eslint eslint-config-2o3t --save-dev
+npm i eslint 2o3t-eslint --save-dev
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ npm i eslint eslint-config-2o3t --save-dev
 ```json
 {
   "devDependencies": {
-    "eslint-config-2o3t": "1",
+    "2o3t-eslint": "1",
     "eslint": "4"
   }
 }
@@ -25,20 +25,20 @@ npm i eslint eslint-config-2o3t --save-dev
 
 ```js
 module.exports = {
-  extends: 'eslint-config-2o3t'
+  extends: '2o3t-eslint'
 };
 ```
 
 ### Use with Experimental Features
 
-If you want to use eslint-config-2o3t with experimental features such as `async function`, you should use `babel-eslint` parser:
+If you want to use 2o3t-eslint with experimental features such as `async function`, you should use `babel-eslint` parser:
 
 - `package.json`
 
 ```json
 {
   "devDependencies": {
-    "eslint-config-2o3t": "1",
+    "2o3t-eslint": "1",
     "eslint": "4",
     "babel-eslint": "8"
   }
@@ -49,7 +49,7 @@ If you want to use eslint-config-2o3t with experimental features such as `async 
 
 ```js
 module.exports = {
-  extends: 'eslint-config-2o3t',
+  extends: '2o3t-eslint',
   // for experimental features support
   parser: 'babel-eslint',
   rules: {
@@ -62,14 +62,14 @@ module.exports = {
 
 ### Use with React in Front-End
 
-If you want to use eslint-config-2o3t with react, jsx and es6 modules:
+If you want to use 2o3t-eslint with react, jsx and es6 modules:
 
 - `package.json`
 
 ```json
 {
   "devDependencies": {
-    "eslint-config-2o3t": "1",
+    "2o3t-eslint": "1",
     "eslint": "4",
     "babel-eslint": "8",
     "eslint-plugin-react": "7"
@@ -81,7 +81,7 @@ If you want to use eslint-config-2o3t with react, jsx and es6 modules:
 
 ```js
 module.exports = {
-  extends: 'eslint-config-2o3t',
+  extends: '2o3t-eslint',
   // for experimental features support
   parser: 'babel-eslint',
   parserOptions: {
@@ -100,7 +100,3 @@ module.exports = {
   },
 };
 ```
-
-## License
-
-[MIT](LICENSE)
