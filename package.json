@@ -1,5 +1,5 @@
 {
-  "name": "2o3t-eslint",
+  "name": "2o3t-eslint-config",
   "version": "1.0.0",
   "description": "Node Style Guide for 2o3t.",
   "main": "index",
@@ -23,12 +23,12 @@
   },
   "author": "Zyao89 <zyao89@gmail.com>",
   "bugs": {
-      "url": "https://github.com/2o3t/2o3t-EslintConfig/issues",
-      "email": "zyao89@gmail.com"
+    "url": "https://github.com/2o3t/2o3t-EslintConfig/issues",
+    "email": "zyao89@gmail.com"
   },
   "repository": {
-      "type": "git",
-      "url": "https://github.com/2o3t/2o3t-EslintConfig.git"
+    "type": "git",
+    "url": "https://github.com/2o3t/2o3t-EslintConfig.git"
   },
   "license": "MIT",
   "scripts": {
