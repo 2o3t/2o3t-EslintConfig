@@ -1,0 +1,40 @@
+{
+  "name": "2o3t-eslint-config",
+  "version": "1.0.0",
+  "description": "Node Style Guide for 2o3t.",
+  "main": "index",
+  "files": [
+    ".eslintrc",
+    "index.js",
+    "legacy.js",
+    "react.js",
+    "lib"
+  ],
+  "dependencies": {
+    "babel-eslint": "^8.2.6",
+    "eslint-plugin-eggache": "^1.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.11.1"
+  },
+  "devDependencies": {
+    "coffee": "^5.1.0",
+    "eslint": "^5.4.0"
+  },
+  "author": "Zyao89 <zyao89@gmail.com>",
+  "bugs": {
+      "url": "https://github.com/2o3t/2o3t-EslintConfig/issues",
+      "email": "zyao89@gmail.com"
+  },
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/2o3t/2o3t-EslintConfig.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint lib *.js"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  }
+}
