@@ -5,12 +5,16 @@ module.exports = {
         './index',
         './lib/rules/browser',
         './lib/rules/import',
-        './lib/rules/react',
-        './lib/rules/react-a11y',
     ].map(require.resolve),
-    parser: 'babel-eslint',
+    parser: 'vue-eslint-parser',
     rules: {},
+    plugins: [
+        'vue',
+    ],
     parserOptions: {
+        parser: 'babel-eslint',
+        ecmaVersion: 2018,
+        sourceType: 'module',
         ecmaFeatures: {
             jsx: true,
             experimentalObjectRestSpread: true,
