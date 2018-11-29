@@ -7,9 +7,7 @@ const builtin = [
 ].map(require.resolve);
 
 module.exports = {
-    extends: builtin.concat([
-        'plugin:eggache/recommended',
-    ]),
+    extends: builtin,
     parserOptions: {
         sourceType: 'script',
     },
