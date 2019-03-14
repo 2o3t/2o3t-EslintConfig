@@ -3,6 +3,12 @@
     "version": "1.1.4",
     "description": "Node Style Guide for 2o3t.",
     "main": "index",
+    "keywords": [
+        "zyao89",
+        "2o3t",
+        "eslint",
+        "eslint-config"
+    ],
     "files": [
         ".eslintrc",
         "index.js",
