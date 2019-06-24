@@ -10,6 +10,7 @@ module.exports = {
     rules: {},
     plugins: [
         'vue',
+        'html',
     ],
     parserOptions: {
         parser: 'babel-eslint',
