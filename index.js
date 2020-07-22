@@ -9,6 +9,7 @@ const builtin = [
 module.exports = {
     extends: builtin,
     parserOptions: {
+        parser: 'babel-eslint',
         sourceType: 'script',
     },
 };
